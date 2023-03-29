@@ -39,6 +39,7 @@ namespace ConsoleApplication
             Train t3 = new Train("Runaway Train");
 
             Console.WriteLine($"t1 = t2 {t1==t2} y t2 = t3 {t2==t3}");*/
+            //Ambos dan FALSO porque son instancias diferentes.
         }
     }
 }
